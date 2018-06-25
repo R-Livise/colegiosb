@@ -1,0 +1,545 @@
+/*----colors-----
+
+azul
+    #0034B2  --  rgb(0,52,178)
+    #00257F  --  rgb(0,37,127)
+    #004AFF  --  rgb(0,74,255)
+    #001340  --  rgb(0,19,64)
+    #0043E5  --  rgb(0,67,229)
+rojo
+    #B22809  --  rgb(178,40,9)
+    #7F1D06  --  rgb(127,29,6)
+    #FF390D  --  rgb(255,57,13)
+    #400E03  --  rgb(64,14,3)
+    #E5340C  --  rgb(229,52,12)
+verde
+    #9DFF00  --  rgb(157,255,0)
+    #4E7F00  --  rgb(78,127,0)
+    #9DFF00  --  rgb(157,255,0)
+    #274000  --  rgb(39,64,0)
+    #8DE500  --  rgb(141,229,0)
+    
+----colors-----*/
+/* {
+    border: 1px solid rgba(0,0,0,1);/*
+    margin: 5px;
+    */
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: Tw Cen MT, sans-serif;
+    font-size: 3em;
+    margin: 2px;
+    display: inline-block;
+
+}
+
+@media (max-width:450px) {
+    h1{
+        font-size: 25px
+    }
+    
+}
+@media (min-width:992px) {
+    h1{
+        font-size: 200%;
+        margin-left: 0px; 
+        margin-right: 0px;
+    }
+    
+}
+
+h2 {
+    font-family: Tw Cen MT, sans-serif;
+    text-align: center;
+    font-size: 50px;
+} 
+li {
+    font-family: Tw Cen MT, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: Tw Cen MT, sans-serif; 
+    color: white;
+}
+
+img{
+    vertical-align: bottom;
+    width: 100%;
+    margin: 0px
+}
+
+
+section {
+    text-align:center;
+}
+input {
+    color: black;
+}
+textarea{
+    color: black;
+}
+
+
+/*-------------------------------header------------------------------*/
+
+nav.cabezera_1 {
+    background-color: rgb(0,19,64);
+}
+
+.cabezera_1 h1 {
+    font-size: 13px;
+    margin: auto 1%;
+    display: inline-block;
+}
+
+*/
+.cabezera_1 li{
+    text-decoration: none;
+}
+
+.cabezera_1 a{
+    font-family: cursive, sans-serif;
+    color: white;
+}
+.cabezera_1 a:hover{
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(229,52,12);
+    
+}
+
+.cabezera_1 a:active{
+    background-color:#EE2605;
+}
+
+
+.cabezera_1 form{
+}
+
+img.cabezera{
+    color: transparent;
+}
+
+nav.cabezera_2 {
+    background-color: #D43511;
+}
+
+.cabezera_2 li {
+    margin: 0px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+        
+}
+
+.cabezera_2 a{
+    font-family: cursive, sans-serif;
+
+}
+.cabezera_2 li:hover{
+    background-color: rgb(0,19,64);
+}
+.col-md-4 a{
+    display: inline-block;
+    margin: auto;
+}
+.col-md-4 {
+    text-align: center;
+}
+.navbar{
+    bottom-margin: 0px;
+}
+
+.navbar-inverse a {
+    color: white !important;;
+}
+
+
+.dropdown-menu {
+    background-color: rgb(0,19,64) !important;
+}
+.dropdown-menu li{
+    background-color: rgb(0,19,64) !important;
+}
+
+.dropdown-menu a:hover{
+    color: black !important;
+}
+
+
+.divider li{
+    color: white!important;
+}
+/*-------------------------------fin header------------------------------*/
+.barra{
+    background-color: rgb(0,19,64);
+    height: 5px;
+}
+ol {
+    text-align: center !important; 
+    margin: 5px auto ;
+}
+/*-------------------------------carrusel------------------------------*/
+#SCarrusel {
+    overflow: hidden;
+    background-color: rgb(0,19,64);
+}
+
+
+.item img{
+    height: auto;
+    width: %100;
+    display: inline-block;
+}
+
+
+
+.carousel-caption p {
+    font-size: 20px;
+    background-color: rgb(0,19,64);
+    opacity: 0.7;
+    color: white;
+    width: 50%;
+    padding: 1% 5%;
+    border: 2px solid rgb(229,52,12);
+}
+@media ( max-width: 780px ){
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    .carousel-indicators li{
+        width: 7px;
+        height: 7px;
+        border-radius: 7px;
+    }
+    .carousel-indicators .active{
+        width: 7px;
+        height: 7px;
+        border-radius: 7px;
+    }
+    .carousel-inner .carousel-caption {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media ( max-width: 450px ){
+    .carousel-caption p{
+        font-size: 10px;
+    }
+}
+
+
+/*-------------------------------fin carrusel------------------------------*/
+/*-------------------------------indice------------------------------*/
+#myCarousel li{
+    border-color: rgb(0,19,64);
+
+}
+.button button{
+    width: 100%;
+    margin: 0px;
+
+}
+.button {
+    padding: 0px;
+
+}
+
+@media ( max-width: 450px ){
+    .button {
+    width: 100%;
+    padding: 0px 12%;
+
+}
+}
+/*-------------------------------fin indice------------------------------*/
+#theBenefits li{
+    border: 1px solid rgba(0,37,127,0.9) ;
+    font-size: 1.5em;
+    padding: 2px;
+
+}
+
+#theBenefits li:hover{
+    font-size: black;
+    background-color: rgba(0,37,127,0.9)!important;
+}
+
+
+.benef{
+    width: 45%;
+    padding: 0px;
+    border: 5px solid rgba(0,37,127,0.9);
+    display: inline-block;
+    margin: auto; 
+    vertical-align: top;
+    align-content: center;
+    margin-top:0px;
+
+}
+
+.ben{
+    width: 45%;
+    height: 100%;
+    padding: 0px;
+    margin-left: 5%;
+    display: inline-block;
+
+}
+
+
+@media ( max-width: 450px ) {
+    .benef {
+        width: 90%;
+        margin: auto 5%;
+    }
+    .ben{
+    width: 90%; 
+    border: 0px none rgba(0,37,127,0.9);
+    }   
+}
+/*-------------------------------anuncio------------------------------*/
+
+.anuncio {
+    width: 100%;
+
+}
+
+.anun{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 60px;
+}
+
+.anun img{
+    border-radius: 15px;
+}
+
+/*-------------------------------fin anuncio------------------------------*/
+
+
+/*-------------------------------noticias------------------------------*/
+.noti{
+    border: 10px ridge white;
+    background: url("font/noti-pizarra.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.minoti {
+    color: white;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 3px solid white;
+
+}
+.noti a{
+    color: white;
+    text-decoration: none;
+}
+
+.noti a:hover{
+    color: #FFA9B4;
+}
+
+/*-------------------------------fin noticias------------------------------*/
+
+/*-------------------------------calenadrio------------------------------*/
+
+#fechas{
+    color: rgb(0,19,64);
+}
+.calend {
+    background-color: rgb(0,19,64);
+    color: white;
+    min-height: 10em;
+    border-radius: 15px;
+    border: 0.5em solid white ;
+    
+}
+.calend h3{
+    color: #FFC128;
+    
+}
+/*-------------------------------calendario------------------------------*/
+/*-------------------------------multimedia------------------------------*/
+
+video {
+    width: 80%;
+}
+
+.formulario {
+    display: inline-block;
+    text-align: center;
+    margin: auto auto 2em auto;
+}
+.escrib{
+    display: inline-block;
+    width: 50%;
+}
+.enviar input{
+    margin: auto;
+    display: inline-block;
+    float: none;
+    width: initial!important;
+}
+.formulario textarea{
+    width: 70%!important;
+    margin: auto;
+}
+/*-------------------------------fin multimedia------------------------------*/
+
+/*-------------------------------comentarios-----------------------------*/
+.comentario {
+    color: white;
+    background-color: rgba(178,40,9,0.7);
+}
+
+/*-------------------------------fincomentarios------------------------------*/
+
+/*-------------------------------foooter------------------------------*/
+footer{
+    background-color: rgba(33,39,113,0.9);
+    vertical-align: bottom;
+    color: white;
+}
+
+div.footer_1{/
+    border-style: none;
+    vertical-align: top;
+    border-right: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+.footer_1 img{
+    width: auto;
+}
+
+
+div.footer_2{
+    border-left: 2px solid white;
+    text-align: justify;
+    padding-left: 5%;
+    padding: 5px;
+}
+
+address {
+    margin-left: 5%;
+
+}
+
+.footer_2 img{
+    width: 40px;
+}
+.footer_2 h1{
+    color: white;
+    display: inline-block;
+    padding-left: 0.5em;
+}
+.footer_2 p{
+    display: inline-block;
+
+}
+/*-------------------------------fin footer------------------------------*/
+
+.grises img {
+filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+}
+.grises img:hover { 
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.nosotros img{
+    margin: auto 30%;
+    width: 40%;
+}
+
+.eleminiar label{
+    padding: 5px;
+}
+/*------------------table----------------------------*/
+.table-hover table, thead, tbody, tr, td{
+    border:2px solid rgb(0,37,127);
+}
+.table-hover thead{
+    background-color: rgb(0,37,127);
+    color: white;
+}
+/*------------------arriba------------------------*/
+
+.arriba{
+    position: fixed;
+    z-index: 100;
+    top: 90%;
+    left: 92%;
+    color: #D43511;
+    opacity: 0.5;
+
+}
+@media (max-width: 500px ) {
+    .arriba{
+        left: 80%;
+    }        
+        
+}
+.arriba:active{
+
+    opacity: 1!important;
+
+}
+.arriba:hover{
+    color: #D43511;
+    opacity: 1;
+
+}
+
+.PerEscol article{
+    border:5px solid rgb(0,19,64); 
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    background-color: rgb(220,220,220);
+    min-height: 500px;
+    overflow: hidden;
+}
+
+@media (max-width:600px )  {
+
+    .PerEscol article{
+        min-height: none;
+        max-height: none;
+}
+
+}
+.PerEscol h2{
+    text-transform: uppercase;
+    border-top: 10px solid rgb(80,80,80);
+    border-bottom: 10px solid rgb(80,80,80);
+}
+.PerEscol img{
+    border:5px solid rgb(0,19,64); 
+    background-color: rgb(0,74,255);
+}
+
+.PerEscol a{
+    color: rgb(80,80,80);
+}
