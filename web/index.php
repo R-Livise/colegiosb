@@ -1,5 +1,7 @@
 <!--index.php-->
 <?php
+	require('vendor/autoload.php');
+
 	include("header-master.php");
 ?>
 
