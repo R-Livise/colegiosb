@@ -29,7 +29,7 @@
                 
 				<div class="collapse navbar-collapse navbar-right" id="navbar_inter">
 		            <ul class="nav navbar-nav">    
-						<li><a href="formulario_redInterna.php" target="_blank" > Red Intena </a></li>
+						<li><a href="formulario_RedInterna.php" target="_blank" > Red Intena </a></li>
 					</ul>
                     <form class="navbar-form navbar-left">
 						<div class="input-group">
